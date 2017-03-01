@@ -11,7 +11,7 @@ import javax.persistence.Table;
 public class Customer extends StandardEntity {
     private static final long serialVersionUID = 5671270784377683290L;
 
-    @Column(name = "NAME", length = 4000)
+    @Column(name = "NAME", nullable = false, length = 4000)
     protected String name;
 
     public void setName(String name) {

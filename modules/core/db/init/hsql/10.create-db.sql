@@ -9,7 +9,7 @@ create table CQCWB_CUSTOMER (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    NAME varchar(4000),
+    NAME varchar(4000) not null,
     --
     primary key (ID)
 )^
